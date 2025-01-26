@@ -12,7 +12,7 @@ author_profile: true
 - **Tianyu Chen**, Ding Li, Ying Zhang, Tao Xie, Jsimpo: Structural Deobfuscation of JavaScript programs, TOSEM’24
 - **Tianyu Chen**, Lin Li, Liuchuan Zhu, Zongyang Li, Xueqing Liu, Guangtai Liang, Qianxiang Wang, Tao Xie, VulLibGen: Generating Names of Vulnerability-Affected Packages via a Large Language Model, ACL’24
 - **Tianyu Chen**, Lin Li, Bingjie Shan, Guangtai Liang, Ding Li, Qianxiang Wang, Tao Xie, Identifying Vulnerable Third-Party Libraries from Textual Descriptions of Vulnerabilities and Libraries, TOSEM'24
-- **Tianyu Chen**, Shuai Lu, Shan Lu, Yeyun Gong, Chenyuan Yang, Xuheng Li, Md Rakib Hossain Misu, Hao Yu, Nan Duan, Peng CHENG, Fan Yang, Shuvendu K Lahiri, Tao Xie, Lidong Zhou, Automated Proof Generation for Rust Code via Self-Evolution, `ICLR’25
+- **Tianyu Chen**, Shuai Lu, Shan Lu, Yeyun Gong, Chenyuan Yang, Xuheng Li, Md Rakib Hossain Misu, Hao Yu, Nan Duan, Peng CHENG, Fan Yang, Shuvendu K Lahiri, Tao Xie, Lidong Zhou, Automated Proof Generation for Rust Code via Self-Evolution, ICLR'25
 - **Tianyu Chen**, Zeyu Wang, Lin Li, Shang Ma, Ding Li, Xiaoning Chang, Pan Bian, Guangtai Liang, Qianxiang Wang, Tao Xie, Detecting Functionality-Specific Vulnerabilities via Retrieving Functionality- Equivalent APIs in Open-Source Repositories
 - **Tianyu Chen**, Lin Li, Taotao Qian, Jingyi Liu, Wei Yang, Xueqing Liu, Guangtai Liang, Ding Li, Qianx- iang Wang, Tao Xie, CompVPD: Iteratively Identifying Vulnerability Patches Based on Human Validation Results with a Precise Context
 - **Tianyu Chen**, Ding Li, Yingjie Fu, Luyao Ren, Tao Xie, Unick++: An Enhanced Uniform SAT Sampler for Efficient Testing.
