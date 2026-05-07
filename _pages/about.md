@@ -17,42 +17,53 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Tianyu Chen is a researcher at Microsoft Research Asia (MSRA). He received his PhD in Computer Science from Peking University in 2025, advised by Prof. Tao Xie, and his Bachelor's degree in Computer Science from Peking University in 2020.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+His research focuses on applying large language models to software engineering, especially on formal verification, open-source software vulnerability, and test generation.
 
 
-# 🔥 News
+<!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<sub>(\* Equal contribution, † Corresponding author)</sub>
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- [Pull Requests as a Training Signal for Repo-Level Code Editing](https://arxiv.org/abs/2602.07457). Qinglin Zhu, **Tianyu Chen**†, Shuai Lu, Lei Ji, Runcong Zhao, Murong Ma, Xiangxiang Dai, Yulan He, Lin Gui, Peng Cheng, Yeyun Gong. **ICML 2026**.
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- [Automated Proof Generation for Rust Code via Self-Evolution](https://arxiv.org/abs/2410.15756). **Tianyu Chen**, Shuai Lu, Shan Lu, Yeyun Gong, Chenyuan Yang, Xuheng Li, Md Rakib Hossain Misu, Hao Yu, Nan Duan, Peng Cheng, Fan Yang, Shuvendu K. Lahiri, Tao Xie, Lidong Zhou. **ICLR 2025**.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- [Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories](https://doi.org/10.4230/LIPIcs.ECOOP.2025.6). **Tianyu Chen**, Zeyu Wang, Lin Li, Shang Ma, Ding Li, Xiaoning Chang, Pan Bian, Guangtai Liang, Qianxiang Wang, Tao Xie. **ECOOP 2025**.
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Jsimpo: Structural Deobfuscation of JavaScript Programs](https://dl.acm.org/doi/10.1145/3714460). **Tianyu Chen**, Ding Li, Ying Zhang, Tao Xie. **TOSEM 2025**.
+
+- [Identifying Vulnerable Third-Party Libraries from Textual Descriptions of Vulnerabilities and Libraries](https://doi.org/10.1145/3717060). **Tianyu Chen**, Lin Li, Bingjie Shan, Guangtai Liang, Ding Li, Qianxiang Wang, Tao Xie. **TOSEM 2025**.
+
+- [VulLibGen: Generating Names of Vulnerability-Affected Packages via a Large Language Model](https://arxiv.org/abs/2308.04662). **Tianyu Chen**, Lin Li, Liuchuan Zhu, Zongyang Li, Xueqing Liu, Guangtai Liang, Qianxiang Wang, Tao Xie. **ACL 2024**.
+
+- [Path Toward Elderly-Friendly Mobile Apps](https://ieeexplore.ieee.org/abstract/document/10547079). Dezhi Ran, Yingjie Fu, Yibo He, **Tianyu Chen**, Xing Tang, Tao Xie. **IEEE Computer 2023**.
+
+### Preprints
+
+- [CompVPD: Iteratively Identifying Vulnerability Patches Based on Human Validation Results with a Precise Context](https://arxiv.org/abs/2310.02530). **Tianyu Chen**, Lin Li, Taotao Qian, Jingyi Liu, Wei Yang, Xueqing Liu, Guangtai Liang, Ding Li, Qianxiang Wang, Tao Xie.
+
+### Technical Reports
+
+- [SIGMA: An AI-Empowered Training Stack on Early-Life Hardware](https://arxiv.org/abs/2512.13488). Lei Qu, Lianhai Ren, Peng Cheng, Rui Gao, Ruizhe Wang, **Tianyu Chen**, Xiao Liu, Xingjian Zhang, Yeyun Gong, Yifan Xiong, Yucheng Ding, Yuting Jiang, Zhenghao Lin, Zhongxin Guo, Ziyue Yang. *arXiv:2512.13488*, 2025.
+
+- [Sigma-MoE-Tiny Technical Report](https://arxiv.org/abs/2512.16248). Qingguo Hu, Zhenghao Lin, Ziyue Yang, Yucheng Ding, Xiao Liu, Yuting Jiang, Ruizhe Wang, **Tianyu Chen**, Zhongxin Guo, Yifan Xiong, Rui Gao, Lei Qu, Jinsong Su, Peng Cheng, Yeyun Gong. *arXiv:2512.16248*, 2025.
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.11* Nomination of Doctoral Dissertation Incentive Program in CCF TCSE 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2020.09 - 2025.07*, Ph.D., Peking University, Beijing, China
+- *2016.09 - 2020.07*, Bachelor, Peking University, Beijing, China
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<!-- # 💻 Internships
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
