@@ -32,6 +32,8 @@ His research focuses on applying large language models to software engineering, 
 
 - [Pull Requests as a Training Signal for Repo-Level Code Editing](https://arxiv.org/abs/2602.07457). Qinglin Zhu, **Tianyu Chen**†, Shuai Lu, Lei Ji, Runcong Zhao, Murong Ma, Xiangxiang Dai, Yulan He, Lin Gui, Peng Cheng, Yeyun Gong. **ICML 2026**.
 
+- Synthesizing File-Level Data for Unit Test Generation with Chain-of-Thoughts via Self-Debugging. Ziyue Hua, **Tianyu Chen**, Yeyun Gong, Shuai Lu, Peng Cheng, Qinglin Zhu, Yibo He, Yingjie Fu, Wenpin Jiao, Wei Yang, Tao Xie. **ASE 2026**.
+
 - [CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler](clir.html). Shangtong Cao, Tianlei Song, Qiuping Yi, **Tianyu Chen**, Guoai Xu, Ningyu He, Haoyu Wang. **ISSTA 2026**.
 
 - [Automated Proof Generation for Rust Code via Self-Evolution](https://arxiv.org/abs/2410.15756). **Tianyu Chen**, Shuai Lu, Shan Lu, Yeyun Gong, Chenyuan Yang, Xuheng Li, Md Rakib Hossain Misu, Hao Yu, Nan Duan, Peng Cheng, Fan Yang, Shuvendu K. Lahiri, Tao Xie, Lidong Zhou. **ICLR 2025**.
