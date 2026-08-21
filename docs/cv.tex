@@ -1,0 +1,310 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{tabu}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+
+\def\name{Tianyu Chen}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+ % body={6.5in, 8.5in},
+  body={6.5in, 8.60in},
+  left=1.0in,
+ % top=1.25in
+ top=1.00in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+%\begin{center}
+{\huge \name}
+%\end{center}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  % \href{https://english.pku.edu.cn}{Peking University} \\
+Researcher\\
+Microsoft Research Asia\\
+Haidian District, Beijing
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & ($+86$) $13161331055$ \\
+    Email: & \href{chentianyu@microsoft.com}{\tt chentianyu@microsoft.com} \\
+%    Homepage: & \href{http://www.stat-or.unc.edu/}{\tt http://www.stat-or.unc.edu/} \\
+  \end{tabular}
+\end{minipage}
+
+
+%\section*{Personal}
+%
+%\begin{itemize}
+%\item Born on August $11$st, $1998$.
+%\item Chinese Citizen.
+%\end{itemize}
+
+
+\section*{Education}
+% \vspace{-0.4cm}
+
+\begin{itemize}
+  \item Ph.D. Peking University, $2020$ - $2025$ (Supervisor: Prof. Tao Xie)
+  
+  \begin{itemize}
+      \item Research Focus: Software Testing, Software Analytics, and Intelligent Software Engineering
+      \item GPA: $3.82$
+  \end{itemize}
+
+  \item B.S. Peking University, $2016-2020$
+ 
+  \begin{itemize}
+      \item Major in Computer Science and Technology
+      \item GPA: $3.77$, Ranking: $17 / 247$  (EECS, Peking University)
+  \end{itemize}
+
+  \item Shanghai High School, $2013-2016$
+
+\end{itemize}
+
+\vspace{-0.4cm}
+
+\section*{Honorship}
+\begin{itemize}
+    \item Nomination of Doctoral Dissertation Incentive Program in CCF TCSE ($2025$)
+    \item Outstanding Graduate of Peking University ($2020$)
+    \item $5.4$ Scholarship ($2017, 2024$)
+    \item Houston Alumni Association Scholarship ($2018, 2019$)
+    \item The $10$th National College Student Mathematics Competition: First place
+    \item ICPC In Peking University:  Second place ($2023, 2024$), Third place ($2016, 2018, 2021, 2022$)
+\end{itemize}
+
+% \vspace{-0.4cm}
+\section*{Publications}
+\textsuperscript{*} Equal contribution, \textsuperscript{\textdagger} Corresponding author
+
+\begin{itemize}
+    \item Qinglin Zhu, \textbf{Tianyu Chen}\textsuperscript{\textdagger}, Shuai Lu, Lei Ji, Runcong Zhao, Murong Ma, Xiangxiang Dai, Yulan He, Lin Gui, Peng Cheng, Yeyun Gong, \href{https://arxiv.org/abs/2602.07457}{Pull Requests as a Training Signal for Repo-Level Code Editing}, ICML'26
+    \item Ziyue Hua, \textbf{Tianyu Chen}\textsuperscript{\textdagger}, Yeyun Gong, Shuai Lu, Peng Cheng, Qinglin Zhu, Yibo He, Yingjie Fu, Wenpin Jiao, Wei Yang, Tao Xie, \href{https://arxiv.org/abs/2602.03181}{Synthesizing File-Level Data for Unit Test Generation with Chain-of-Thoughts via Self-Debugging}, ASE'26
+    \item Shangtong Cao, Tianlei Song, Qiuping Yi, \textbf{Tianyu Chen}, Guoai Xu, Ningyu He, Haoyu Wang, \href{https://arxiv.org/abs/2606.26977}{CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler}, ISSTA'26
+    \item \textbf{Tianyu Chen}, Shuai Lu, Shan Lu, Yeyun Gong, Chenyuan Yang, Xuheng Li, Md Rakib Hossain Misu, Hao Yu, Nan Duan, Peng Cheng, Fan Yang, Shuvendu K. Lahiri, Tao Xie, Lidong Zhou, \href{https://arxiv.org/abs/2410.15756}{Automated Proof Generation for Rust Code via Self-Evolution}, ICLR'25
+    \item \textbf{Tianyu Chen}, Zeyu Wang, Lin Li, Shang Ma, Ding Li, Xiaoning Chang, Pan Bian, Guangtai Liang, Qianxiang Wang, Tao Xie, \href{https://doi.org/10.4230/LIPIcs.ECOOP.2025.6}{Detecting Functionality-Specific Vulnerabilities via Retrieving Individual Functionality-Equivalent APIs in Open-Source Repositories}, ECOOP'25
+    \item \textbf{Tianyu Chen}, Ding Li, Ying Zhang, Tao Xie, \href{https://dl.acm.org/doi/10.1145/3714460}{Jsimpo: Structural Deobfuscation of JavaScript Programs}, TOSEM'25
+    \item \textbf{Tianyu Chen}, Lin Li, Bingjie Shan, Guangtai Liang, Ding Li, Qianxiang Wang, Tao Xie, \href{https://doi.org/10.1145/3717060}{Identifying Vulnerable Third-Party Libraries from Textual Descriptions of Vulnerabilities and Libraries}, TOSEM'25
+    \item \textbf{Tianyu Chen}, Lin Li, Liuchuan Zhu, Zongyang Li, Xueqing Liu, Guangtai Liang, Qianxiang Wang, Tao Xie, \href{https://arxiv.org/abs/2308.04662}{VulLibGen: Generating Names of Vulnerability-Affected Packages via a Large Language Model}, ACL'24
+    \item Dezhi Ran, Yingjie Fu, Yibo He, \textbf{Tianyu Chen}, Xing Tang, Tao Xie, \href{https://ieeexplore.ieee.org/abstract/document/10547079}{Path Toward Elderly-Friendly Mobile Apps}, IEEE Computer'23
+\end{itemize}
+
+\subsection*{Preprints}
+\begin{itemize}
+    \item \textbf{Tianyu Chen}, Lin Li, Taotao Qian, Jingyi Liu, Wei Yang, Xueqing Liu, Guangtai Liang, Ding Li, Qianxiang Wang, Tao Xie, \href{https://arxiv.org/abs/2310.02530}{CompVPD: Iteratively Identifying Vulnerability Patches Based on Human Validation Results with a Precise Context}
+\end{itemize}
+
+\subsection*{Technical Reports}
+\begin{itemize}
+    \item Lei Qu, Lianhai Ren, Peng Cheng, Rui Gao, Ruizhe Wang, \textbf{Tianyu Chen}, Xiao Liu, Xingjian Zhang, Yeyun Gong, Yifan Xiong, Yucheng Ding, Yuting Jiang, Zhenghao Lin, Zhongxin Guo, Ziyue Yang, \href{https://arxiv.org/abs/2512.13488}{SIGMA: An AI-Empowered Training Stack on Early-Life Hardware}, arXiv:2512.13488, 2025
+    \item Qingguo Hu, Zhenghao Lin, Ziyue Yang, Yucheng Ding, Xiao Liu, Yuting Jiang, Ruizhe Wang, \textbf{Tianyu Chen}, Zhongxin Guo, Yifan Xiong, Rui Gao, Lei Qu, Jinsong Su, Peng Cheng, Yeyun Gong, \href{https://arxiv.org/abs/2512.16248}{Sigma-MoE-Tiny Technical Report}, arXiv:2512.16248, 2025
+\end{itemize}
+
+% \vspace{-0.2cm}
+% \section*{Internship}
+%     \subsection*{PaaS Lab, Huawei Cloud, 2022.09 - 2024.05, Supervised by Prof. Qianxiang Wang}
+%     \begin{itemize}
+%         \item Research Focus: Software composition analysis (SCA)
+%         \item Vulnerability Localization (3,000+ identified packages, ACL'24, TOSEM'25)
+%         \item Vulnerability-Patch Identification (best practice in Huawei Cloud, identify 50+ patches)
+%         \item 0-day vulnerability identification (receive 60 CVE IDs, ECOOP'25)
+%     \end{itemize}
+
+%     \subsection*{System Group, MSRA, 2024.05 - 2025.05, Supervised by Prof. Yeyun Gong}
+%     \begin{itemize}
+%         \item Research Focus: LLM for Rust program verification (Verus, ICLR'25)
+%     \end{itemize}
+
+    
+%\section*{Employment}
+%
+%\begin{itemize}
+%\item Stanford University 1927--1931.
+%\item Columbia University 1931--1946.
+%\item University of North Carolina, 1946--1973.
+%\end{itemize}
+
+% \vspace{-0.3cm}
+\section*{Other Research Experiences}
+    
+    \subsection*{2018 - 2020: (random algorithms \& complexity)}
+    \begin{itemize}
+        \item Supervised by Prof. Hanpin Wang (Peking University) and Prof. Heng Guo (University of Edinburgh)
+        \item  Completed a technical report titled  ``An improvement from degree 3 to degree 4,"
+               showing that the coloring number of a graph with degree 4 can be estimated by using the topical structure of the graph
+        \item Completed a technical report about the lower bound for the mixing time of random walk over matroids
+    \end{itemize}
+    % \subsection*{Summer of 2019: (the mixing time of random walks)}
+    % \begin{itemize}
+    %  \item  Supervised by Dr. Heng Guo, School of Informatics, University of Edinburgh, United Kingdom
+    %     %\item In University of Edinburg for two months
+    %     \item Completed a technical report about the lower bound for the mixing time of exchange-based random walk over matroids
+    %     % \item Studied decomposition of cross entropy
+    %     % by Dirichlet form and and its application
+    %     \end{itemize}
+    
+% \vspace{-0.4cm}
+\section*{Teaching Experience}
+\begin{itemize}
+    \item Introduction to Computer Systems  (2018.09 - 2019.01, 2019.09 - 2020.01)
+    \item Practice of Programming in C\&C++ (2019.02 - 2019.06)
+    \item Data Structure and Algorithms (2020.09 - 2021.01)
+    \item Computer Networks (2021.02 - 2021.06)
+\end{itemize}
+% 	\begin{itemize}
+% 	    \item Giving lectures to summarize and extend knowledge of computer systems
+% 		\item Organizing class reviews and discussions
+% 		\item Grading homework and checking submitted code
+	
+% 	  \end{itemize}
+
+    % \begin{itemize}
+    %     \item September 2020 - January 2021
+    % \end{itemize}
+
+% \vspace{-0.4cm}
+% \section*{Advantages}
+% NLP for Software Engineering and Security, Software Analysis, Random Algorithm
+
+    
+% \section*{Course Projects \href{https://github.com/q5438722}{(My Homepage)}}
+% \begin{itemize}
+% \item
+%     MiniJava Compiler (A solo project)
+% \item    
+%     JOS operating System (A solo project)
+%  \item   
+%     Ad hoc network (A solo project)
+% \item    
+%     RISC-V Virtual Machine (A solo project)
+% \item 
+%     Pointer Analysis Framework (A two-person project)
+% \item    
+%     Captcha break (A four-person project)
+% \item   
+%     Treehole App (A three-person project)
+%   \end{itemize}  
+
+
+
+%\section*{Technical Strengths}
+%	\begin{tabular}{ @{\hspace{3ex}} >{}l @{\hspace{6ex}} p{300pt} }
+%		Computer Languages & C\ $\backslash$C++ \ \  python \ \ Java \\
+%		Familiar with & computer systems \ \ Linux \ \ Cryptography \ \ Network Protocals \\
+%		Mathematics & Probability theory \ \  Real \& Complex Analysis\ \ Modern Algebra
+%	\end{tabular}
+
+% \section*{Hobbies}
+% \begin{itemize}
+%     \item Playing Softball : Member of school's baseball team, winning Newborn cup champion for two years
+%     \item Reading Detective Stories : read more than 100 novels annually
+% \end{itemize}
+
+
+
+%\section*{Publications}
+%
+%\subsection*{Journal Articles}
+%
+%\begin{itemize}
+%\item A General Mathematical Theory of Depreciation, 1929, {\it Journal
+%    of The American Statistical Association} 20, 340--353.
+%\item Differential Equations Subject to Error, 1927, {\it Journal of The
+%    American Statistical Association}.
+%\item Applications of the Theory of Error to the Interpretation of
+%  Trends (with H. Working), 1929, {\it Journal of the American
+%    Statistical Association}.
+%\end{itemize}
+%
+%\subsection*{Proceedings}
+%
+%\begin{itemize}
+%\item A generalized T-Test and measure of multivariate dispersion,
+%  Proc. Second Berkeley Symposium of Mathematical Statistics and
+%  Probability, 1951.
+%\end{itemize}
+
+% \bigskip
+
+% Footer
+% \begin{center}
+%   \begin{footnotesize}
+%     Last updated: \today \\
+%     \href{\footerlink}{\texttt{\footerlink}}
+%   \end{footnotesize}
+% \end{center}
+
+\end{document} 
