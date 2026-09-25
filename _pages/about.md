@@ -30,7 +30,7 @@ His research focuses on applying large language models to software engineering, 
 
 <sub>(\* Equal contribution, † Corresponding author)</sub>
 
-- [From Patches to Trajectories: Privileged Process Supervision for Software-Engineering Agents](https://arxiv.org/abs/2605.21996). Murong Ma, **Tianyu Chen**†, Yun Lin, Shuai Lu, Qinglin Zhu, Yeyun Gong, Zhiyong Huang, Peng Cheng, Yan Lu, Jin Song Dong. **NeurIPS 2026**.
+- [From Patches to Trajectories: Privileged Process Supervision for Software-Engineering Agents](https://arxiv.org/abs/2605.21996). Murong Ma, **Tianyu Chen**†, Yun Lin†, Shuai Lu, Qinglin Zhu, Yeyun Gong†, Zhiyong Huang, Peng Cheng, Yan Lu, Jin Song Dong. **NeurIPS 2026**.
 
 - [Pull Requests as a Training Signal for Repo-Level Code Editing](https://arxiv.org/abs/2602.07457). Qinglin Zhu, **Tianyu Chen**†, Shuai Lu, Lei Ji, Runcong Zhao, Murong Ma, Xiangxiang Dai, Yulan He, Lin Gui, Peng Cheng, Yeyun Gong. **ICML 2026**.
 
